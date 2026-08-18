@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="08/18/2026 12:47:14" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20BB52" Type="X20BB52" X="99" Y="106" />
+    <Module Name="X20BM11" Type="X20BM11" X="137" Y="106" />
+    <Module Name="X20CM8281" Type="X20CM8281" X="137" Y="106" />
+    <Module Name="X20TB12a" Type="X20TB12" X="137" Y="133" />
+    <Module Name="X20BM11a" Type="X20BM11" X="150" Y="106" />
+    <Module Name="X20DI2377a" Type="X20DI2377" X="150" Y="106" />
+    <Module Name="X20TB12b" Type="X20TB12" X="150" Y="133" />
+    <Module Name="X20BM11b" Type="X20BM11" X="163" Y="106" />
+    <Module Name="X20CM8281a" Type="X20CM8281" X="163" Y="106" />
+    <Module Name="X20TB12c" Type="X20TB12" X="163" Y="133" />
+    <Module Name="X20PS9600" Type="X20PS9600" X="124" Y="106" />
+    <Module Name="X20TB12" Type="X20TB12" X="124" Y="133" />
+    <Module Name="X20CP0482" Type="X20CP0482" X="99" Y="106" />
+  </Modules>
+  <Links />
+  <InfoElements />
+</BR.AS.HardwareTopology>
