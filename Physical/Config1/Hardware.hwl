@@ -2,23 +2,69 @@
 <?AutomationStudio FileVersion="4.9"?>
 <BR.AS.HardwareTopology>
   <TimeStamps>
-    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="08/18/2026 12:47:14" />
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="10/09/2026 09:53:18" />
   </TimeStamps>
   <Modules>
-    <Module Name="X20BB52" Type="X20BB52" X="99" Y="106" />
-    <Module Name="X20BM11" Type="X20BM11" X="137" Y="106" />
-    <Module Name="X20CM8281" Type="X20CM8281" X="137" Y="106" />
-    <Module Name="X20TB12a" Type="X20TB12" X="137" Y="133" />
-    <Module Name="X20BM11a" Type="X20BM11" X="150" Y="106" />
-    <Module Name="X20DI2377a" Type="X20DI2377" X="150" Y="106" />
-    <Module Name="X20TB12b" Type="X20TB12" X="150" Y="133" />
-    <Module Name="X20BM11b" Type="X20BM11" X="163" Y="106" />
-    <Module Name="X20CM8281a" Type="X20CM8281" X="163" Y="106" />
-    <Module Name="X20TB12c" Type="X20TB12" X="163" Y="133" />
-    <Module Name="X20PS9600" Type="X20PS9600" X="124" Y="106" />
-    <Module Name="X20TB12" Type="X20TB12" X="124" Y="133" />
-    <Module Name="X20CP0482" Type="X20CP0482" X="99" Y="106" />
+    <Module Name="X20BM01" Type="X20BM01" X="155" Y="190" />
+    <Module Name="X20BM11" Type="X20BM11" X="168" Y="190" />
+    <Module Name="X20DIF371" Type="X20DIF371" X="168" Y="190" />
+    <Module Name="X20TB1F" Type="X20TB1F" X="168" Y="217" />
+    <Module Name="X20BM11a" Type="X20BM11" X="181" Y="190" />
+    <Module Name="X20AT6402" Type="X20AT6402" X="181" Y="190" />
+    <Module Name="X20TB12a" Type="X20TB12" X="181" Y="217" />
+    <Module Name="X20BM11b" Type="X20BM11" X="194" Y="190" />
+    <Module Name="X20DOF322" Type="X20DOF322" X="194" Y="190" />
+    <Module Name="X20TB1F1" Type="X20TB1F" X="194" Y="217" />
+    <Module Name="X20BM11c" Type="X20BM11" X="207" Y="190" />
+    <Module Name="X20DOF322a" Type="X20DOF322" X="207" Y="190" />
+    <Module Name="X20TB1F2" Type="X20TB1F" X="207" Y="217" />
+    <Module Name="X20BR7300" Type="X20BR7300" X="155" Y="190" />
+    <Module Name="X20TB12" Type="X20TB12" X="155" Y="217" />
+    <Module Name="4PPC70_0702_23B" Type="4PPC70.0702-23B" X="-73" Y="65" />
+    <Module Name="8I76xxxxxxx.0P-xxx" Type="8I76xxxxxxx.0P-xxx" X="329" Y="380" />
+    <Module Name="8I76xxxxxxx.0P-xxx1" Type="8I76xxxxxxx.0P-xxx" X="408" Y="380" />
+    <Module Name="8I76xxxxxxx.0P-xxx2" Type="8I76xxxxxxx.0P-xxx" X="490" Y="380" />
   </Modules>
-  <Links />
+  <Links>
+    <Link From="4PPC70_0702_23B" To="8I76xxxxxxx.0P-xxx" FromPort="IF1" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="337" Y="534" />
+      <Point X="337" Y="534" />
+      <Point X="337" Y="581" />
+      <Point X="337" Y="595" />
+      <Point X="-39.7000046" Y="595" />
+      <Point X="-39.7000046" Y="172" />
+      <Point X="-39.7000046" Y="167" />
+      <Point X="-39.7000046" Y="167" />
+    </Link>
+    <Link From="4PPC70_0702_23B" To="X20BR7300" FromPort="IF6" ToPort="CAN1" IsRoutedByUser="False">
+      <Point X="162.5" Y="229.5" />
+      <Point X="162.5" Y="229.5" />
+      <Point X="154.5" Y="229.5" />
+      <Point X="20.2999954" Y="229.5" />
+      <Point X="20.2999954" Y="172" />
+      <Point X="20.2999954" Y="167" />
+      <Point X="20.2999954" Y="167" />
+    </Link>
+    <Link From="8I76xxxxxxx.0P-xxx" To="8I76xxxxxxx.0P-xxx1" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="349" Y="534" />
+      <Point X="349" Y="534" />
+      <Point X="349" Y="581" />
+      <Point X="349" Y="594" />
+      <Point X="416" Y="594" />
+      <Point X="416" Y="581" />
+      <Point X="416" Y="534" />
+      <Point X="416" Y="534" />
+    </Link>
+    <Link From="8I76xxxxxxx.0P-xxx1" To="8I76xxxxxxx.0P-xxx2" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="502" Y="534" />
+      <Point X="502" Y="534" />
+      <Point X="502" Y="581" />
+      <Point X="502" Y="594" />
+      <Point X="428" Y="594" />
+      <Point X="428" Y="581" />
+      <Point X="428" Y="534" />
+      <Point X="428" Y="534" />
+    </Link>
+  </Links>
   <InfoElements />
 </BR.AS.HardwareTopology>
